@@ -1,17 +1,11 @@
-# OpenFood data analysis 
+# FoodRepo products data analysis 
 
-In this repo we perform an exploratory data analysis of the [food repo](https://www.openfood.ch)
+In this repo we perform an exploratory and unsupervised data analysis of the [food repo](https://www.openfood.ch)
 dataset.
  
-## How to integrate a git(hub) repo on [overleaf](https://www.overleaf.com/dash):
-
-- https://www.overleaf.com/help/233-how-do-i-connect-an-overleaf-project-with-a-repo-on-github#.WVTi2MZ7FE5
-- https://www.overleaf.com/help/230-how-do-i-push-a-new-project-to-overleaf-via-git#.WVTiS8Z7FE4
-
-- (more general, on overleaf integration to git: https://www.overleaf.com/blog/195#.WVTg18Z7FE4)
-
-
-## References on Web API performances
-
-- https://www.nngroup.com/articles/response-times-3-important-limits/
-- https://stackoverflow.com/questions/536300/what-is-the-shortest-perceivable-application-response-delay 
+ There are mainly 4 works, in the corresponding notebooks:
+ 
+* [exploratory analysis with general statistics](exploratory_analysis_on_large_dataset.ipynb)  > plots also in [plots\_nutrients](./plots_nutrients)
+* [clustering in nutrients space](clustering_nutrients.ipynb)
+* [network-based analysis on ingredients](ingredients_network.ipynb) > plots in [ingredients\_network\_plots](./ingredients_network_plots)
+* [network-based analysis on products](product_network.ipynb) >  plots in [products\_network\_plots](./products_network_plots)
